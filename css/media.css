@@ -1,0 +1,50 @@
+﻿/* 
+
+Theme & Template Designed By: Todd Swift
+ThemeKings --  www.themekings.net
+January 2010  All Rights Reserved
+Ohio Sheriff Revised 02/10
+Email questions or request to tswift@themekings.net
+
+*/
+
+
+
+/* FLOAT IMAGES */
+
+.float1 {
+	padding: 0px;
+	margin: 0px 0px 0px 5px;
+	position: relative;
+	width: 120px;
+	height: 120px;
+	float: right;
+	overflow: hidden;
+}
+
+/* PAGE LINKS */
+
+a.page:link, a.page:visited {
+	color: #EED92A;
+	text-decoration: none;
+}
+a.page:hover {
+	color: #FFFF00;
+}
+
+/* YOUTUVE VIDEO CONTAINER */
+
+.youtube {
+	width: 320px;
+	height: 100%;
+	position: relative;
+	padding: 0px;
+	margin: 4px;
+	float: right;
+	overflow: hidden;
+	font-family: Verdana;
+	font-size: 80%;
+	font-weight: normal;
+	color: #999999;
+	text-align: center;
+}
