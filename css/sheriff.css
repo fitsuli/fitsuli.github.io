@@ -1,0 +1,437 @@
+﻿/* 
+Theme & Template Designed By: Todd Swift
+ThemeKings --  www.themekings.net
+January 2010  All Rights Reserved
+Ohio Sheriff Revised 02/22
+Email questions or request to tswift@themekings.net
+*/
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #111111;
+	overflow: auto;
+	background-image: url('../theme/bdybgnd.jpg');
+	background-repeat: repeat-x;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: .8em;
+}
+#wrapper {
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 982px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	background-image: url('../theme/bodyfill.jpg');
+	background-repeat: repeat-y;
+}
+#header {
+	padding: 0px;
+	margin: 0px;
+	width: 982px;
+	height: 258px;
+	position: relative;
+	overflow: hidden;
+}
+#head-LFT {
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	width: 490px;
+	height: 258px;
+	position: relative;
+	background-image: url('../theme/banner-top-left.jpg');
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: left;
+}
+#head-LFT-img {
+	padding: 0px;
+	margin: 55px 0px 0px 30px;
+	width: 456px;
+	height: 190px;
+	position: relative;
+}
+#head-RGT {
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	width: 492px;
+	height: 258px;
+	position: relative;
+	background-image: url('../theme/banner-top-right.jpg');
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: right;
+}
+#head-Info {
+	padding: 0px;
+	margin: 55px 0px 0px 25px;
+	width: 430px;
+	position: relative;
+	overflow: hidden;
+}
+#dept-name {
+	margin: 0px auto 5px auto;
+	padding: 0px;
+	font-size: 190%;
+	font-weight: bold;
+	color: #EED92A;
+	text-align: center;
+}
+#dept-address {
+	margin: 0px auto 4px auto;
+	padding: 0px;
+	font-size: 140%;
+	font-weight: bold;
+	color: #EED92A;
+	text-align: center;
+}
+#dept-address-2 {
+	margin: 0px auto 4px auto;
+	padding: 0px;
+	font-size: 140%;
+	font-weight: bold;
+	color: #EED92A;
+	text-align: center;
+}
+#dept-phone {
+	margin: 0px auto 4px auto;
+	padding: 0px;
+	font-size: 110%;
+	font-weight: bold;
+	color: #EED92A;
+	text-align: center;
+}
+#dept-star {
+	margin: 4px auto 0px auto;
+	padding: 0px;
+	width: 75px;
+	height: 71px;
+	position: relative;
+	overflow: hidden;
+	background-image: url('../theme/sheriff-star-ohio-75.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#hnav {
+	background-image: url('../theme/hnav.jpg');
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	width: 982px;
+	height: 42px;
+	overflow: hidden;
+}
+#footer {
+	background-image: url('../theme/footer.jpg');
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+	width: 982px;
+	height: 75px;
+	position: relative;
+	overflow: hidden;
+	clear: both;
+}
+/* COLUMNS */
+#COL-left {
+	padding: 0px;
+	margin-top: 10px;
+	margin-left: 20px;
+	position: relative;
+	width: 180px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+#COL-right {
+	padding: 0px;
+	margin-top: 3px;
+	position: relative;
+	width: 748px;
+	height: 100%;
+	float: right;
+	overflow: hidden;
+	margin-right: 20px;
+}
+/* CLEARS */
+.clearB {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+}
+.clearL {
+	clear: left;
+	margin: 0px;
+	padding: 0px;
+}
+.clearR {
+	clear: right;
+	margin: 0px;
+	padding: 0px;
+}
+/* VERTICAL NAV */
+.vnavwrapper {
+	padding: 0px;
+	margin: 0px 0px 20px 0px;
+	width: 180px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	background-image: url('../theme/navfillfull.jpg');
+	background-repeat: repeat-y;
+}
+.vnavhead {
+	background-image: url('../theme/navtop.jpg');
+	background-repeat: no-repeat;
+	padding: 0px 0px 0px 45px;
+	margin: 0px;
+	position: relative;
+	width: 180px;
+	height: 42px;
+	overflow: hidden;
+	font-weight: bold;
+	color: #EED92A;
+	text-align: left;
+	line-height: 360%;
+}
+.vnavbody {
+	background-image: url('../theme/navfill.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% top;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	width: 180px;
+	height: 100%;
+	overflow: hidden;
+}
+.vnavinfo {
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	text-indent: 0px;
+	padding: 0px;
+	margin-top: 4px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	width: 164px;
+	overflow: hidden;
+	list-style-type: none;
+}
+.vnavfooter {
+	background-image: url('../theme/navft.jpg');
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+	width: 180px;
+	height: 30px;
+	position: relative;
+	overflow: hidden;
+}
+/* CONTENT BOX */
+.cntwrapper {
+	padding: 0px;
+	margin: 0px 0px 20px 0px;
+	position: relative;
+	width: 748px;
+	height: 100%;
+	overflow: hidden;
+}
+.cnthead {
+	margin: 0px;
+	padding: 0px 0px 0px 60px;
+	position: relative;
+	width: 748px;
+	height: 60px;
+	overflow: hidden;
+	background-image: url('../theme/cnttop.jpg');
+	background-repeat: no-repeat;
+	font-weight: bold;
+	color: #EED92A;
+	text-decoration: none;
+	text-align: left;
+	line-height: 500%;
+}
+.cntbody {
+	background-image: url('../theme/cntfill.jpg');
+	background-repeat: repeat-y;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	width: 748px;
+	height: 100%;
+	overflow: hidden;
+}
+.cntfooter {
+	background-image: url('../theme/cntbtm.jpg');
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	width: 748px;
+	height: 60px;
+	overflow: hidden;
+}
+.cntftinfo {
+	font-size: 90%;
+	color: #C0C0C0;
+	text-align: center;
+	padding: 0px;
+	margin-top: 23px;
+	margin-left: 542px;
+	position: relative;
+	width: 184px;
+	height: 16px;
+	overflow: hidden;
+}
+.cntinfo {
+	color: #FFFFFF;
+	font-size: 90%;
+	text-decoration: none;
+	text-align: left;
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	position: relative;
+	width: 710px;
+	overflow: hidden;
+	list-style-type: none;
+}
+/* HNAV LINKS */
+.hmenu {
+	padding: 0px;
+	margin-top: 6px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	width: 936px;
+	overflow: hidden;
+}
+.hmenu ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+.hmenu li a {
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	line-height: 240%;
+	background-image: url('../theme/butnOFF.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	width: 117px;
+	height: 32px;
+	float: left;
+	overflow: hidden;
+	list-style-type: none;
+}
+.hmenu li a:hover {
+	background-image: url('../theme/butnON.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #EED92A;
+	text-decoration: underline;
+}
+
+
+
+#hz-menu {
+	padding: 0px;
+	margin-top: 6px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	width: 936px;
+	overflow: hidden;
+}
+#hz-menu ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+#hz-menu ul li {
+	padding: 0px;
+	margin: 0px;
+	width: 117px;
+	height: 32px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
+	list-style-type: none;
+	display: inline-block;
+}
+a.hbutton, a.hbutton:link, a.hbutton:visited {
+	background-position: 0px 0px;
+	width: 117px;
+	height: 32px;
+	display: block;
+	text-decoration: none;
+	color: #f2f2f2;
+	background-image: url('../theme/hbutton-flash.gif');
+	background-repeat: no-repeat;
+}
+a.hbutton:hover {
+	background-position: 0px -32px;
+	text-decoration: none;
+	color: #fffffff;
+}
+
+
+
+
+/* VNAV LINKS */
+.vmenu {
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 160px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.vmenu ul {
+	padding: 0px;
+	margin: 0px;
+}
+.vmenu li a {
+	color: #FFFFFF;
+	text-align: left;
+	line-height: 150%;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	list-style-type: none;
+	text-decoration: none;
+}
+.vmenu li a:hover {
+	color: #EED92A;
+	text-decoration: none;
+	font-weight: bold;
+}
+/* FOOTER MESSAGE */
+.footinfo {
+	color: #999999;
+	font-size: 80%;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+	padding: 0px;
+	margin-top: 12px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+	position: relative;
+	overflow: hidden;
+}
